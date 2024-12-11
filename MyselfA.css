@@ -54,3 +54,19 @@ footer .Phone{margin-left: 20px; padding: 30px; font-size: 18px;}
 footer .mail{padding: 30px; font-size: 18px;}
 footer .Followme{margin-right: 20px; padding: 30px; font-size: 18px;}
 footer .Followme p{margin-top: 5px;}
+
+
+@media(max-height:1200px){
+footer{display: flex; justify-content: space-between; border-top: 1px solid rgba(0, 0, 0, 0.4); width: 100%; position: absolute; top: 140%;}
+}
+
+@media(max-height:1000px){
+    footer{display: flex; justify-content: space-between; border-top: 1px solid rgba(0, 0, 0, 0.4); width: 100%; position: absolute; top: 160%;}
+    }
+
+    @media(max-height:900px){
+        footer{display: flex; justify-content: space-between; border-top: 1px solid rgba(0, 0, 0, 0.4); width: 100%; position: absolute; top: 180%;}
+}
+@media(max-height:700px){
+    footer{display: flex; justify-content: space-between; border-top: 1px solid rgba(0, 0, 0, 0.4); width: 100%; position: absolute; top: 230%;}
+}
