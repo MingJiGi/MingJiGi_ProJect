@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&display=swap');
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+a{text-decoration: none; color: inherit;} 
+
+.en{ font-family: "Exo 2", serif;}
+body{font-family: "Noto Sans KR", sans-serif; font-size: 14px; background-color: #fcfbf8;}
+
+
+/* navBar */
+nav .NavBar{display: flex; width: 100%; height: auto; justify-content: space-between;}
+nav .NavBar ul li{float: left; margin: 20px 40px;  line-height: 20px; padding: 10px; font-size: 30px;}
+nav .NavBar ul li:hover{ border-left: 1px solid rgba(0, 0, 0, 0.4); transition: 0.9s;}
+nav .NavBar ul li:hover, nav .NavBar ul li:hover{color: #583101; border-color: #583101;}
+nav .NavBar h2{font-size: 40px;}
+.NavBar h2{margin: 30px 30px;}
+
+/* header */
+header{margin-top: 100px;}
+header span{font-size: 50px; margin-left: 17%;}
+
+
+
+/* section */
+
+section.container{display: grid; grid-template-columns: repeat(2, 1fr); grid-auto-rows: 150px; grid-gap: 1rem; grid-template-areas: 
+'a b c'
+'a b c'
+'d d d'
+'f f m'
+'j k p'
+'j k p'
+'l i o'
+'l i o'
+
+
+
+}
+.image{width: 100%; height: 100%; object-fit: cover;}
+.image1{grid-area: a;}
+.image2{grid-area: b;}
+.image3{grid-area: c;}
+.image4{grid-area: f;}
+.image5{grid-area: d;}
+.image6{grid-area: m;}
+.image7{grid-area: j;}
+.image8{grid-area: k;}
+.image9{grid-area: p;}
+.image10{grid-area: l;}
+.image11{grid-area: i;}
+.image12{grid-area: o;}
