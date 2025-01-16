@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Submit.css">
+    <title>SubmitPage</title>
+</head>
+<body>
+    <!-- 회원가입 페이지 시작지점 -->
+    <div class="Container">
+        <img src="./logo.png" alt="Logo"> <!--1 로고-->
+        <form action="./Login.html">
+            <label for="UserID" class="en">UserID</label> <!-- 2 아이디 입력창창-->
+            <input type="text" id="UserID" placeholder="아이디" required> <!--아이디 입력창 끝-->
+            <label for="PassWord" class="en">PassWord</label> <!-- 3 비밀번호 입력창-->
+            <input type="text" id="PassWord" placeholder="비밀번호" required><!--비밀번호 입력창 끝-->
+            <label for="Name" class="en">Name</label> <!-- 4 이름 입력창-->
+            <input type="text" id="Name" placeholder="이름" required><!--이름 입력창 끝-->
+            <label for="Email" class="en">Email</label> <!-- 5 이메일 입력창-->
+            <input type="text" id="Email" placeholder="이메일" required><!--이메일 입력창 끝-->
+            <div class="button">
+            <button type="submit">완료</button> <!-- 6 회원가입양식 완료 버튼-->
+            </div>
+        </form>
+    </div>
+    <!-- END -->
+</body>
+</html>

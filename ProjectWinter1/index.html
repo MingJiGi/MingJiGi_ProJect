@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>MsikPage</title>
+</head>
+
+<body>
+    <!-- Nav Bar Start JSP 에서 별도로 처리 -->
+    <nav>
+        <a href=""><img src="./logo.png" alt="Logo" class="logo"></a>
+        <ul>
+            <a href="">
+                <li>Map</li>
+            </a>
+            <a href="">
+                <li>Community</li>
+            </a>
+            <a href="">
+                <li>About</li>
+            </a>
+        </ul>
+        <form action="">
+            <input type="text">
+            <button type="submit" class="en">Search</button>
+        </form>
+    </nav>
+    <!-- NavBarEnd -->
+	<div id="map" style="width:750px;height:350px;"></div>
+
+	<script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=26e7cf36ed908da0ccf1aeacd6619744"></script>
+	<script>
+		var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+		    mapOption = {
+		        center: new kakao.maps.LatLng(37.56786, 126.98126), // 지도의 중심좌표
+		        level: 6, // 지도의 확대 레벨
+		        mapTypeId : kakao.maps.MapTypeId.ROADMAP // 지도종류
+		    }; 
+
+		// 지도를 생성한다 
+		var map = new kakao.maps.Map(mapContainer, mapOption); 
+
+	</script>
+</body>
+
+</html>
