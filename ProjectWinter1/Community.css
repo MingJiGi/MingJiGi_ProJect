@@ -80,7 +80,7 @@ div.postCard div.imgBox img {
     height: 100%;
 }
 
-div.icon i img {
+div.icon a i img {
     width: 20px;
     height: 20px;
     margin: 20px 0 0 20px;
