@@ -1,0 +1,21 @@
+nav li{list-style: none;}
+nav{display: flex; align-items: center; justify-content: space-between; width: 100%; height: 100px;}
+a{text-decoration: none; color: black;}
+
+
+
+div.imgBox{
+    width: 100%; height: 3%;
+    overflow: hidden;
+}
+div.imgBox img{
+    width: 100%; height: 500px;
+}
+
+div.commentBox{
+    width: 100%; height: 100vh;
+}
+
+span{
+    margin-top: 10%;
+}
